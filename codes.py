@@ -18,8 +18,8 @@ def read(event, context):
 
 # Publish to new PubSub
 
-    project_id = "your-project-id"
-    topic_id = "test-topic"
+    project_id = "noble-stratum-377414"
+    topic_id = "Hackaton_Output"
     publisher = pubsub_v1.PublisherClient()
     topic_path = publisher.topic_path(project_id, topic_id)
 
