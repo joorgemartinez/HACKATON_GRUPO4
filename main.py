@@ -8,7 +8,7 @@ def array_order(event, context):
 
     pubsub_message = base64.b64decode(event['data']).decode('utf-8')
 
-    array = json.loads(pubsub_message["jsonPayload"]["challenges"][0]["challengePayload"])
+    array = json.loads(pubsub_message["jsonPayload"]["challenges"][0]["challengePayload"])++++++++++++++++++++++++++++
 
     array_ordenado = sorted(array)
 
