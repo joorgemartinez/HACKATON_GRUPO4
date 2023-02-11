@@ -26,7 +26,7 @@ def array_order(event, context):
                 "responses":[
                 {
                 "challengeId": event['data']["jsonPayload"]["challenges"][0]["challengeId"],
-                "challegePayload": event['data']["jsonPayload"]["challenges"][0]["challengePayload"],
+                "challengePayload": event['data']["jsonPayload"]["challenges"][0]["challengePayload"],
                 "challengeType": type(event['data']["jsonPayload"]["challenges"][0]["challengePayload"]),
                 "payload": array, 
                 "timeStart": inicio, 
